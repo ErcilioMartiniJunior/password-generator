@@ -49,3 +49,4 @@ function gerarSenha() {
     // Limpa a mensagem de erro (se houver)
     document.getElementById("erro").innerHTML = "";
 }
+
