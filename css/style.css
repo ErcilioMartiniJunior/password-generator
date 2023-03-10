@@ -1,15 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@300;400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Sono", sans-serif;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4em;
+    padding: 5em;
+    background-color: #CCCCCC;
+}
+
+.container {
+    max-width: 80%;
+    min-width: 80%;
+    background-color: #FFFFFF;
+    border: 3px solid #000000;
+    border-radius: 10px;
 }
 
 h1 {
-    margin-top: 50px;
+    font-family: "Sono", sans-serif;
+    font-size: 3em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 1em;
+    background-color: #CCCCCC;
+
 }
 
-div {
-    margin-top: 20px;
-    margin-bottom: 20px;
+.numero__caracteres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: 300;
+
+}
+
+input,
+#num_caracteres {
+    font-size: 20px;
+    padding: 0 10px;
+    text-align: center;
+    border: 2px solid #000000;
+    font-family: "Sono", sans-serif;
+}
+
+.selecao__caracteres {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.25em;
+    font-weight: 300;
+    margin: 0 0 2em 2em;
+}
+
+#letras,
+#numeros,
+#simbolos {
+    border: 2px solid #CCCCCC;
+    font-size: 16px;
+    min-width: 20px;
+    min-height: 20px;
 }
 
 label {
@@ -17,21 +75,36 @@ label {
 }
 
 button {
-    padding: 10px;
+    padding: 15px;
+    min-width: 60%;
     border-radius: 5px;
     border: none;
-    background-color: #4CAF50;
+    background-color: #3273f6;
     color: white;
-    font-size: 16px;
+    font-size: 32px;
     cursor: pointer;
+    font-family: "Sono", sans-serif;
+    text-transform: uppercase;
 }
 
 button:hover {
-    background-color: #3e8e41;
+    background-color: #2F58CD;
 }
 
+#campo__senha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    margin: 2em 4em 1em 4em;
+    padding: 10px;
+    background-color: #CCCCCC;
+}
+
+input,
 #senha {
-    font-size: 24px;
+    font-size: 1em;
     margin-top: 20px;
     margin-bottom: 20px;
 }
