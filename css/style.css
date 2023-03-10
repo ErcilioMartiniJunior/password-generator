@@ -12,17 +12,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 4em;
-    padding: 5em;
+    padding-top: 3.2em;
     background-color: #CCCCCC;
 }
 
 .container {
     max-width: 80%;
-    min-width: 80%;
+    min-width: 70%;
     background-color: #FFFFFF;
     border: 3px solid #000000;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 h1 {
@@ -59,6 +58,7 @@ input,
     font-size: 1.25em;
     font-weight: 300;
     margin: 0 0 2em 2em;
+    padding: 0 4em;
 }
 
 #letras,
