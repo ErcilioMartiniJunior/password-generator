@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 3.2em;
+    padding-top: 2.5em;
     background-color: #CCCCCC;
 }
 
@@ -24,14 +24,21 @@ body {
     border-radius: 20px;
 }
 
-h1 {
+.titulo {
     font-family: "Sono", sans-serif;
     font-size: 3em;
     font-weight: 500;
     text-transform: uppercase;
-    margin: 1em;
+    margin: 1em 1em .5em 1em;
     background-color: #CCCCCC;
 
+}
+
+.texto__titulo {
+    font-size: 12px;
+    font-weight: 300;
+    padding: 12px;
+    margin: 1em;
 }
 
 .numero__caracteres {
@@ -43,14 +50,14 @@ h1 {
 
 }
 
-input,
+/*input,
 #num_caracteres {
     font-size: 20px;
     padding: 0 10px;
     text-align: center;
     border: 2px solid #000000;
     font-family: "Sono", sans-serif;
-}
+}*/
 
 .selecao__caracteres {
     display: flex;
@@ -111,4 +118,10 @@ input,
 
 input[type=checkbox] {
     margin-right: 6px;
+}
+
+.erro {
+    font-size: 16px;
+    font-weight: 500;
+    color: red;
 }
