@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Sono:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
 
 * {
     padding: 0;
@@ -7,64 +7,45 @@
 }
 
 body {
-    font-family: "Sono", sans-serif;
+    font-family: "Montserrat", sans-serif;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 2.5em;
-    background-color: #CCCCCC;
+    background-color: #AA77FF;
 }
 
 .container {
-    max-width: 80%;
-    min-width: 70%;
+    width: 30%;
     background-color: #FFFFFF;
-    border: 3px solid #000000;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 .titulo {
-    font-family: "Sono", sans-serif;
-    font-size: 3em;
-    font-weight: 500;
+    color: #37306B;
+    font-size: 2em;
+    font-weight: 400;
     text-transform: uppercase;
     margin: 1em 1em .5em 1em;
-    background-color: #CCCCCC;
+
 
 }
 
 .texto__titulo {
-    font-size: 12px;
+    font-size: 1em;
     font-weight: 300;
     padding: 12px;
     margin: 1em;
 }
 
-.numero__caracteres {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5em;
-    font-weight: 300;
-
-}
-
-/*input,
-#num_caracteres {
-    font-size: 20px;
-    padding: 0 10px;
-    text-align: center;
-    border: 2px solid #000000;
-    font-family: "Sono", sans-serif;
-}*/
-
 .selecao__caracteres {
     display: flex;
-    justify-content: space-around;
-    font-size: 1.25em;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1em;
     font-weight: 300;
-    margin: 0 0 2em 2em;
+    margin: 0 0 2em 4em;
     padding: 0 4em;
 }
 
@@ -72,9 +53,8 @@ body {
 #numeros,
 #simbolos {
     border: 2px solid #CCCCCC;
-    font-size: 16px;
-    min-width: 20px;
-    min-height: 20px;
+    font-size: 1em;
+
 }
 
 label {
@@ -83,37 +63,34 @@ label {
 
 button {
     padding: 15px;
-    min-width: 60%;
+    width: 40%;
     border-radius: 5px;
     border: none;
-    background-color: #3273f6;
+    background-color: #37306B;
     color: white;
-    font-size: 32px;
+    font-size: 1em;
     cursor: pointer;
     font-family: "Sono", sans-serif;
     text-transform: uppercase;
 }
 
 button:hover {
-    background-color: #2F58CD;
+    background-color: #66347F;
 }
 
 #campo__senha {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2em;
+    font-size: 1.5em;
     text-transform: uppercase;
-    margin: 2em 4em 1em 4em;
+    margin: 1em 0 1em 0;
     padding: 10px;
-    background-color: #CCCCCC;
 }
 
 input,
 #senha {
     font-size: 1em;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 input[type=checkbox] {
