@@ -1,104 +1,90 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
-    text-align: center;
+
+    background-image: url(/img/background.jpeg);
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding-top: 2.5em;
-    background-color: #AA77FF;
+    margin: 6em 2em;
 }
 
 .container {
     width: 30%;
     background-color: #FFFFFF;
-    border-radius: 30px;
+    border-radius: 10px;
+    box-shadow: #0000004d 0px 19px 38px, #00000038 0px 15px 12px;
 }
 
 .titulo {
-    color: #37306B;
+    color: #144272;
+    text-align: left;
     font-size: 2em;
-    font-weight: 400;
-    text-transform: uppercase;
-    margin: 1em 1em .5em 1em;
-
-
+    font-weight: 700;
+    padding: 1.5em 1em .5em 1em;
 }
 
 .texto__titulo {
+    color: #144272;
     font-size: 1em;
-    font-weight: 300;
-    padding: 12px;
-    margin: 1em;
+    font-weight: 400;
+    padding: .5em 2em;
+    text-align: justify;
 }
 
 .selecao__caracteres {
+    color: #144272;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     font-size: 1em;
-    font-weight: 300;
-    margin: 0 0 2em 4em;
-    padding: 0 4em;
+    font-weight: 400;
+    line-height: 2em;
+    padding: 1em 2em;
 }
 
-#letras,
-#numeros,
-#simbolos {
-    border: 2px solid #CCCCCC;
-    font-size: 1em;
-
-}
-
-label {
-    margin-right: 10px;
+.campo__button {
+    padding: .5em 2em;
 }
 
 button {
-    padding: 15px;
-    width: 40%;
+    width: 100%;
+    padding: 1em;
     border-radius: 5px;
     border: none;
-    background-color: #37306B;
+    background-color: #205295;
     color: white;
     font-size: 1em;
+    font-weight: 400;
     cursor: pointer;
-    font-family: "Sono", sans-serif;
     text-transform: uppercase;
 }
 
 button:hover {
-    background-color: #66347F;
+    background-color: #2C74B3;
 }
 
 #campo__senha {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5em;
+    color: #144272;
+    font-size: 1.2em;
+    font-weight: 700;
     text-transform: uppercase;
-    margin: 1em 0 1em 0;
-    padding: 10px;
+    padding: 1em 1.3em 2em 1.3em;
+    line-height: 1.5em;
 }
 
-input,
 #senha {
-    font-size: 1em;
-}
-
-input[type=checkbox] {
-    margin-right: 6px;
-}
-
-.erro {
-    font-size: 16px;
-    font-weight: 500;
-    color: red;
+    color: #144272;
+    font-size: 1.5em;
+    font-weight: 900;
+    width: 100%;
+    height: 2em;
+    border: 1px solid #205295;
+    text-align: center;
 }
