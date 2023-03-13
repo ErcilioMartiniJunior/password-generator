@@ -1,47 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerador de Senha</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
     <div class="container">
-        <h1 class="titulo">Gerador de Senha</h1>
-        <p class="texto__titulo">Utilize este gerador de senhas para criar de maneira rápida, gratuita e online uma
+        <h1 class="titulo">Gerador de senha</h1>
+        <p class="texto__titulo">Utilize este gerador de senhas para criar de maneira rápida e gratuita uma
             senha segura e aleatória.
         </p>
         <form>
-            <!--
-            <div class="numero__caracteres">
-                <label for="num-caracteres">Número de caracteres (8 a 32):</label>
-                <input type="number" id="num-caracteres" min="8" max="32" value=" ">
-            </div>
-            -->
             <div class="selecao__caracteres">
-                <div class="form-group">
-                    <label for="letras">Incluir letras:</label>
+                <div class="checkbox__letras">
+                    <label for="letras">- Incluir letras:</label>
                     <input type="checkbox" id="letras" checked>
                 </div>
-                <div class="form-group">
-                    <label for="numeros">Incluir números:</label>
+                <div class="checkbox__numeros">
+                    <label for="numeros">- Incluir números:</label>
                     <input type="checkbox" id="numeros" checked>
                 </div>
-                <div class="form-group">
-                    <label for="simbolos">Incluir símbolos:</label>
+                <div class="checkbox__simbolos">
+                    <label for="simbolos">- Incluir símbolos:</label>
                     <input type="checkbox" id="simbolos" checked>
                 </div>
             </div>
 
-            <div class="form-group">
+            <div class="campo__button">
                 <button type="button" onclick="gerarSenha()">Gerar Senha</button>
             </div>
             <div id="campo__senha">
                 <label for="senha">Senha:</label>
                 <input type="text" id="senha" readonly>
             </div>
-            <div class="form-group">
+            <div class="campo__erro">
                 <span id="erro" class="erro"></span>
             </div>
         </form>
