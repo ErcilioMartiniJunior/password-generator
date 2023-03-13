@@ -32,8 +32,7 @@ function gerarSenha() {
             tipoAleatorio = letras + numeros + simbolos;
         } else {
             // Se o usuário não escolheu nenhum tipo de caracter, exibe uma mensagem de erro
-            document.getElementById("erro").innerHTML = "Selecione pelo menos um tipo de caracter.";
-            return;
+            return alert('Selecione pelo menos um tipo de caracter.');
         }
 
         // Seleciona um caracter aleatório do tipo de caracter escolhido
@@ -45,8 +44,5 @@ function gerarSenha() {
 
     // Define o valor do elemento de senha para a senha gerada
     document.getElementById("senha").value = senha;
-
-    // Limpa a mensagem de erro (se houver)
-    document.getElementById("erro").innerHTML = "";
 }
 
