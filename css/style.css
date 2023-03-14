@@ -8,8 +8,7 @@
 }
 
 body {
-
-    background-image: url(/img/background.jpeg);
+    background-image: url(../img/background.jpeg);
     display: flex;
     justify-content: center;
     margin: 6em 2em;
@@ -23,40 +22,42 @@ body {
 }
 
 .titulo {
-    color: #144272;
-    text-align: left;
+    background-color: #144272;
+    color: #FFFFFF;
+    text-align: center;
     font-size: 2em;
     font-weight: 500;
-    padding: 1.5em 1em .5em 1em;
+    padding: 1em 1em 1em 1em;
 }
 
 .texto__titulo {
     color: #144272;
-    font-size: 1em;
-    font-weight: 400;
-    padding: .5em 2em;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 2em 2em .5em 2em;
     text-align: justify;
 }
 
 .selecao__caracteres {
     color: #144272;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    text-align: left;
     font-size: 1em;
     font-weight: 400;
     line-height: 2em;
     padding: 1em 2em;
+    margin-left: 6em;
 }
 
 .campo__button {
     padding: .5em 2em;
+    text-align: center;
 }
 
 button {
-    width: 100%;
+
+    width: 50%;
     padding: 1em;
-    border-radius: 5px;
+    border-radius: 30px;
     border: none;
     background-color: #205295;
     color: white;
@@ -68,15 +69,14 @@ button {
 
 button:hover {
     background-color: #2C74B3;
+    transition: .8s;
 }
 
 #campo__senha {
-    color: #144272;
-    font-size: 1.2em;
-    font-weight: 700;
-    text-transform: uppercase;
-    padding: 1em 1.8em 2em 1.8em;
-    line-height: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1.5em 2em 3em 2em;
 }
 
 #senha {
@@ -86,5 +86,6 @@ button:hover {
     width: 100%;
     height: 2em;
     border: 1px solid #205295;
+    border-radius: 30px;
     text-align: center;
 }
