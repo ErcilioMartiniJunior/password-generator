@@ -4,6 +4,9 @@
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/></p>
 
+<p> O Objetivo do presente projeto é a criação de um gerador de senhas aleatórias, onde o usuário pode selecionar quais tipos de caracteres quer que contenha a senha. Ao clicar em gerar senha é realizada uma checagem se pelo menos uma opção de caractere foi selecionada, caso contrário aparecerá uma mensagem de erro.<br><br>
+Para a execução do projeto foram utilizados HTML, CSS e JavaScript.</p>
+
 <h2>Resultado final:</h2>
 
 <img width="1440" alt="Captura de Tela 2023-03-16 às 09 11 02" src="https://user-images.githubusercontent.com/116317572/225628198-016a1df1-396b-4312-96b0-05fef742e39c.png">
