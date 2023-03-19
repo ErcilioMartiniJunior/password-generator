@@ -39,6 +39,7 @@
 <img width="1440" alt="Nenum caractere" src="https://user-images.githubusercontent.com/116317572/225632530-77345395-4756-4a8a-97d6-7e1ac3560d54.png">
 
 <h2>Autor</h2>
-<p><strong>Ercilio martini Junior</strong><br>
+<h3>Ercilio martini Junior</h3>
+<p><strong>Desenvolvedor Front-end</strong><br>
 <strong>E-mail:</strong> erciliomartiniJunior@gmail.com<br>
 <strong>Linkedin:</strong> https://www.linkedin.com/in/erciliomartinijunior/</p>
