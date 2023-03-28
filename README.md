@@ -32,6 +32,9 @@
 
 <h3>Quando selecionado apenas símbolos:</h3>
 
+
+
+
 <img width="1440" alt="Captura de Tela 2023-03-16 às 09 12 22" src="https://user-images.githubusercontent.com/116317572/225628912-d14bb6a4-6da6-41e6-bb5a-9730094f1c7b.png">
 
 <h3>Quando não é selecionado nenhum campo:</h3>
